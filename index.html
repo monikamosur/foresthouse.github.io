@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest House</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#company">about us</a></li>
+            <li><a href="#house">about house</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <img src="menu-icon.png" id="menuIcon">
+
+    <script>
+        var menuIcon = document.getElementById("menuIcon");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuIcon.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+    <header>
+        <div class="container">
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <div class="header-text">
+                <h1>
+                    Feel the forest
+                </br>from the cosy side</h1>
+                <p class="header-description">Hello! We are really happy that you are here! We would like to offer you our comfortable house in the middle of natur. Feel free to check the rest of the website, let's get know each other!</p>
+                <!-- <i class="arrow"></i> -->
+            </div>
+            <button>book forest house</button>
+        </div>
+    </header>
+
+    <main>
+<!-- ABOUT US -->
+        
+        <section id="company">
+            <div class="about-left-col">
+                <img src="picture2.jpg">
+            </div>
+            <div class="about-right-col">
+                <div class="about-us">
+                    <h2>about us</h2>
+                    <p>We are marriage, natur lovers and explorers who decide to share their house with more people. We treat every guest as a friend who we are hosting. Make yourself comfortable, dear friend and check what we prepared for you!</p>
+                </div>
+            </div>
+        </section>
+<!-- ABOUT HOUSE -->
+        <section id="house">
+            <div class="house-left-col">
+                <div class="about-house">
+                    <h2>about house</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eligendi pariatur exercitationem dolorem, praesentium consequatur hic quod. Eveniet excepturi voluptate et? Autem delectus corrupti dolorem iure inventore quasi molestias commodi?<br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eligendi pariatur exercitationem dolorem, praesentium consequatur hic quod.</p>
+                </div>
+            </div>
+            <div class="house-right-col">
+                <img src="picture3.jpg.jpg">
+            </div>
+        </section>
+
+        <!-- fUTURES -->
+        <section>
+           <div class="row">
+               <div class="col">
+                 <img src="house.png">
+                 <h3>eco house</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, itaque sit dignissimos quisquam aspernatur tempore, sint illo nihil ipsum at et quos ab ad odit ea voluptate veniam, distinctio laudantium?</p>
+               </div>
+               <div class="col">
+                 <img src="swimming-pool.png">
+                 <h3>swimming pool</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, itaque sit dignissimos quisquam aspernatur tempore, sint illo nihil ipsum at et quos ab ad odit ea voluptate veniam, distinctio laudantium?</p>
+               </div>
+               <div class="col">
+                 <img src="lotus.png">
+                 <h3>spa place</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, itaque sit dignissimos quisquam aspernatur tempore, sint illo nihil ipsum at et quos ab ad odit ea voluptate veniam, distinctio laudantium?</p>
+               </div>
+           </div>
+           <button>book forest house</button>
+        </section>
+    </main>
+
+    <footer id="contact">
+            <div class="row">
+                <div class="col-footer">
+                    <h2>contact us</h2>
+                </div>
+                <div class="col-footer">
+                        <h3>email : </h3><p>foresthouse@booking.com</p><br>
+                        <h3>phone : </h3><p>899 344 3322</p><br>
+                        <h3>address : </h3><p>Bly Area 35, POLAND</p>
+                </div>
+            </div>
+            <p class="credits"> designed and developed by <a href="https://github.com/monikamosur">Monika Mosur</a> | pictures : www.archello.com</p>
+    </footer>
+
+</body>
+</html>
