@@ -49,7 +49,7 @@ nav ul li a {
 
 header {
     height: 100vh;
-    background-image: url(picture1.jpg.jpg);
+    background-image: url(picture1.jpg);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
