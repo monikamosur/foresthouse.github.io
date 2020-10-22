@@ -224,7 +224,7 @@ footer {
 
     h1 {
         color: black;
-        font-size: 24px;
+        font-size: 35px;
     }
 
     .header-description {
@@ -234,7 +234,7 @@ footer {
 
     .logo {
         margin-top: 27px;
-        width: 70px;
+        width: 50px;
     }
     
     .header-text {
@@ -287,7 +287,7 @@ footer {
     /* BUTTON */
     button {
         font-size: 15px;
-        margin: 70px auto 0;
+        margin: 80px auto 0;
       
     }
 
@@ -295,7 +295,7 @@ footer {
     footer {
         height: 100vh;
         background-color:#236b5b;
-        padding: 40px;
+        padding: 20px 40px 20px 40px;
     }
     
     
@@ -308,13 +308,13 @@ footer {
     }
     
     .col-footer {
-        margin: 30px 40px 0 30px;
+        margin: 40px;
     }
     
     .credits,
     .autor {
         font-size: 12px;
-        margin-top: 70px;
+        margin-top: 120px;
     }
     
 }
